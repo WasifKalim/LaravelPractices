@@ -1,0 +1,20 @@
+[
+    {
+        $students= collect(
+            [
+                [
+                    'name'=>'Rahman',
+                    'email'=>'rahman@gmail.com'
+                ],
+                [
+                    'name'=>'Druv',
+                    'email'=>'druv@gmail.com'
+                ],
+                [
+                    'name'=>'Salman',
+                    'email'=>'salman@gmail.com'
+                ]
+            ]
+        );
+    }
+]
