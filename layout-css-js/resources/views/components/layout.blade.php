@@ -7,6 +7,7 @@
     <title> {{$title}} </title>
 </head>
 <body>
+    {{-- this is COMPONENT LAYOUT --}}
     {{$slot}}
     {{$banner}}
 </body>

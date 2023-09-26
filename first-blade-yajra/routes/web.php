@@ -28,3 +28,5 @@ Route::get('/', function(){
 Route::get('blog', [BlogController::class, 'index']);
 
 Route::get('blog/list', [BlogController::class, 'getBlog'])->name('blog.list');
+
+Route::delete('blog/{id}/delete', [ContactController::class, 'destroy']);

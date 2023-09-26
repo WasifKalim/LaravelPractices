@@ -44,7 +44,6 @@ class ProductController extends Controller
 
         $product->save();
         return redirect()->route('products.index')->withSuccess('Product Created !!!');
-
     }
 
     // id is coming from web.php(route)
@@ -93,5 +92,4 @@ class ProductController extends Controller
         $product->delete();
         return back()->withSuccess('Product deleted !!!!');
     }
-
 }
