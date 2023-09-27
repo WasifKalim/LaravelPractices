@@ -1,0 +1,23 @@
+first proj - lect 13 - Single Action controllers
+
+first db - lect 14 - php artisan make:migration create_students_table
+		     php artisan migrate
+		     php artisan migrate:rollback, reset , refresh
+
+lect  - 15 - Seeding - 1. Seeder -> Real Data
+			2. Factory -> Fake Data
+		*collect array
+
+			php artisan make:seeder StudentSeeder
+			php artisan db:seed
+			php artisan db:seed --class =UserSeeder
+			php artisan db:seed --force
+			php artisan db:seed --class=UserSeeder --forece
+let - 18 - Factory - php artisan make:factory StudentFactory
+		   - php artisan make:factory StudentFactory --model=student(factory & model)
+		   - php artisan make:model student -f	(facotry & model)
+		   - php artisan db:seed
+		   - php artisan dn:seed -class=UserSeeder
+		   - php artisan migrate:fresh --seed (migration & Seeding)
+		   
+lect- 19 - 
